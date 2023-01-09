@@ -33,7 +33,7 @@ module.exports = {
         port: 9000,
 
     },
-    //module表示该插件处理的是各种模块文件
+    //module表示该loader处理的是各种模块文件
     module: {
         //rules对应不同的文件类型使用不同的loaders
         rules: [
